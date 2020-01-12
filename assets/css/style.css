@@ -1,0 +1,390 @@
+/* intégration font */
+@font-face {
+  font-family: 'Oswald', sans-serif;
+}
+
+@font-face {
+  font-family: 'Permanent Marker', cursive;
+}
+
+@font-face {
+  font-family: 'Cairo', sans-serif;
+}
+
+/*--Structure page--*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  max-width: 100%;
+  margin: 0 auto;
+  display: inline;
+}
+
+p {
+  margin: 0 auto;
+}
+
+footer {
+  background-image: linear-gradient(to top, #b6b6b6, transparent);
+}
+
+textarea {
+  resize: none;
+}
+
+a:hover {
+  transition: ease .15s;
+}
+
+/* common properties */
+label, .label {
+  width: 100px;
+  display: inline-block;
+}
+
+.logo {
+  top: 20px;
+}
+
+.hero-image, .promo_band {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*Displays*/
+footer, .main-nav, .nav_buttons, .about_us, .actions, .products, .product-pic:hover .overlay, .promo_band, .icon_row, .icon, .container_footer, .links, .h1_fav{
+  display: flex;
+}
+
+.logo-ctn .logo a, .nav_buttons {
+  display: block;
+}
+
+.container_mobile, .mobile, .logo_mobile, .mob_links, .product-pic .overlay {
+  display: none;
+}
+
+/*Positions*/
+.container, .button, .single, .product-pic {
+  position: relative
+}
+
+.product-pic .overlay, .logo, .hero-text {
+  position: absolute;
+}
+
+/*Alignments*/
+footer, .main-nav, .about_us, .actions, .products, .product-pic .overlay, .promo_band, .icon_row, .icon, .h1_fav {
+  align-items: center;
+}
+
+.products, .container_footer {
+  align-items: baseline;
+}
+
+h3, .nav_buttons, .hero-text, .brand_name, .promoTXT p, .about_usText p, .container_footer {
+  text-align: center;
+}
+
+/*Justify*/
+footer, .about_us, .product-pic .overlay {
+  justify-content: center;
+}
+
+.products, .promo_band, .icon_row, .container_footer {
+  justify-content: space-around;
+}
+
+.container_footer, .main-nav, .h1_fav, .actions {
+  justify-content: space-between;
+}
+
+/* width / height */
+body, html, .container_footer {
+  width: 100%;
+  height: 100%;
+}
+
+input, textarea {
+  width: 175px;
+}
+
+footer, .container, .main-nav, .about_us, .products, .promo_band, .icon_row {
+  width: 100vw;
+}
+
+/*Flex*/
+footer, .promo_band, .icon {
+  flex-direction: column;
+}
+
+.nav_buttons, .container_footer {
+  flex-direction: row;
+}
+
+/*Fonts*/
+.logo p, .hero-text, .brand_name, .about_usText p, .promo_band {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.nav-links li a, .nav-links ul li a:hover, .container_footer, .icon_row, footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*Padding / Margin*/
+.company, .need_help, .more, .contact, .a_propos {
+  padding: 10px;
+  margin: 0 20px;
+}
+
+.a_propos, .contact {
+  margin: 0 50px;
+}
+
+.products, .SN_row {
+  margin-bottom: 40px;
+}
+
+.icon_row, .container_footer {
+  padding: 125px 30px;
+}
+
+form>div {
+  margin-bottom: 5px;
+}
+
+/*Colors*/
+.button, .product-cta:hover, .container, .main-nav {
+  background: #DE0000;
+}
+
+.SN_row a, .container_footer a, .product-cta, .icon_row a, .anchor i {
+  color: #282626;
+}
+
+.promo_band, .nav-links ul li a, .nav-links ul li a:hover, .product-cta:hover, .button a, .hero-text, .logo p {
+  color: #FFFFFF;
+}
+
+.fav:hover, .brand_name {
+  color: #DE0000;
+}
+
+/* Shadows */
+.hero-title, .hero-text p {
+  text-shadow: 0 10px 0 #303030;
+}
+
+/* Radius */
+.product-pic img, .product-pic .overlay {
+  border-radius: 5% 5%;
+}
+
+/* Nav */
+.logo p {
+  font-size: 40px;
+  margin-left: 15px;
+  text-shadow: 0 10px 0 #303030
+}
+
+.container {
+  box-shadow: 0 0 25px 0 #282626;
+  z-index: 1;
+}
+
+.main-nav .nav-links ul {
+  list-style-type: none;
+}
+
+.nav-links {
+  margin: 15px;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-links ul li a {
+  border-bottom: 2px solid #DE0000;
+  transition: all 0.3s ease 0s;
+  font-size: 24px;
+}
+
+.nav_buttons, a {
+  text-decoration: none
+}
+
+.nav_buttons {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+}
+
+.nav-links ul li a:hover {
+  border-color: #ffffff;
+  transition: all 0.3s ease 0s;
+}
+
+/* Hero */
+.hero-image {
+  background-image: url("../images/guitar-1928322_1280.png");
+  width: 99.9vw;
+  height: 800px;
+  margin: 0px -1px 40px 0px;
+}
+
+.hero-text {
+  left: 65px;
+  top: 0px;
+  font-size: 4.6rem;
+}
+
+.hero-title {
+  text-shadow: 0 10px 0 #303030, 0 -10px 0 #ff4045;
+  color: #F8F9F9;
+  font-size: 3em;
+  padding: 10px;
+}
+
+.hero-text p {
+  margin-top: 40px;
+}
+
+.button {
+  transition: all 0s ease 0s;
+  box-shadow: 9px 7px 7px #303030;
+  border: 2px solid #F9F9F9;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 120px;
+}
+
+.button:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.anchor {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 45px;
+}
+
+.button_N {
+  padding: 0px 33px;
+}
+
+/* About us */
+.about_us {
+  margin-bottom: 60px;
+  font-size: 1.4em;
+}
+
+.brand_name, .promo_band {
+  font-size: 4rem;
+}
+
+.about_usText p {
+  font-size: 1.9em;
+}
+
+/*--Products Row--*/
+.products {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.single {
+  max-width: 100%;
+  font-size: 23px;
+}
+
+.product-cta {
+  text-transform: lowercase;
+  background: #ffffff;
+  padding: 0px 10px;
+  border: 1px solid #282626;
+  border-radius: 50px;
+  display: inline-block;
+  transition: all 0s ease 0s;
+  box-shadow: 9px 7px 7px grey;
+}
+
+.product-cta:hover {
+  border: none;
+  box-shadow: none;
+  transition: all 0s ease 0s;
+}
+
+.product-pic .overlay {
+  opacity: 0.6;
+  background-color: rgba(205, 0, 0, 0.7);
+  width: 100%;
+  height: 97%;
+  font-size: 50px;
+  transition: all 0.8s ease-out;
+}
+
+.fav, .fav:hover {
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 30px;
+}
+
+/* Promo band */
+.promo_band {
+  background-image: url('../images/photo-1519326773765-3ae3b02c44cc.png');
+  height: 70vh;
+  margin-top: 70px;
+}
+
+.promoTXT {
+  text-shadow: 0 10px 0 #DE0000;
+}
+
+/* Trust & SN icons */
+.icon_row a {
+  margin-right: 10px;
+  font-size: 125px;
+  padding: 40px;
+}
+
+.icon p {
+  font-size: 30px;
+}
+
+footer .Titre {
+  font-weight: bold;
+}
+
+.SN_row {
+  font-size: 80px;
+}
+
+.SN_row a {
+  padding: 10px 30px;
+}
+
+/* Footer */
+.container_footer {
+  font-size: 18px;
+}
+
+.container_footer a:hover {
+  text-decoration: underline;
+}

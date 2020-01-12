@@ -1,0 +1,171 @@
+@media (max-device-width:1023px) {
+
+  /* common properties */
+  .mobile-text h1, .mobile-text span {
+    font-size: 2em;
+    max-width: 100%;
+  }
+
+  /* Displays */
+  ul, .mob-nav, .hero-image, .products, .about_us {
+    display: flex;
+  }
+
+  .mobile, .logo_mobile, .mob_links, .nav_buttons, .logo_mobile {
+    display: block;
+  }
+
+  .container, .main-nav, .nav-links, .logo-ctn, .logo, .hero-text, .anchor {
+    display: none;
+  }
+
+  /* Flex */
+  .mob_links, .nav_buttons {
+    flex-direction: row;
+  }
+
+  .container_footer, .SN_row a, .icon_row, .products {
+    flex-direction: column;
+  }
+
+  /* Alignments */
+  .container_footer, .SN_row a, .icon_row, .products, .hero-image, .products {
+    align-items: center
+  }
+
+  p, .mobile-text h1, .mobile-text span, .container_footer {
+    text-align: center;
+  }
+
+  /* fonts */
+  .mobile-text h1, .mobile-text span, .logo_mobile p, .hero-txt {
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  /* Colors */
+  .logo_mobile p, .logo_mobile, .mobile-text h1, .mobile-text span, .mob_links, .nav_buttons, .hero-txt {
+    color: #FFFFFF;
+  }
+
+  /* Positions */
+  .hero-txt, .mobile-text h1, .mobile-text span {
+    position: absolute;
+  }
+
+  /* nav */
+  .logo_mobile p {
+    font-size: 50px;
+  }
+
+  .container_mobile {
+    background-color: #DE0000;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mob_links {
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 200px;
+  }
+
+  .nav_buttons {
+    padding: 14px 16px;
+  }
+
+  .container_mobile ul {
+    list-style-type: none;
+  }
+
+  .logo_mobile {
+    margin-left: 10px;
+  }
+
+  /* hero */
+  .hero-image {
+    max-width: 100%;
+    background-position: right;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .hero-txt {
+    font-size: 3.3rem;
+  }
+
+  .hero_title {
+    text-shadow: 0 4px 0 #303030, 0 -4px 0 #ff4045;
+    color: #F8F9F9;
+    margin-bottom: 274px;
+    margin-top: 0px;
+    font-size: 10rem;
+  }
+
+  .mobile-button {
+    background: #DE0000;
+    border: 2px solid #F9F9F9;
+    position: relative;
+    margin: 0 120px;
+    padding: 0px 5px;
+  }
+
+  .hero-text p {
+    border-radius: 5% 5%;
+    margin-top: 40px;
+  }
+
+  .button, .button_cont a, .button:hover {
+    box-shadow: none;
+  }
+
+  /* Products */
+  .products {
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .single {
+    padding-bottom: 40px;
+    max-width: 100%;
+  }
+
+  /* About us */
+  .about_us {
+    justify-content: center;
+    align-items: baseline;
+    max-width: 100%;
+  }
+
+  /* Promo Band */
+  .promo_band {
+    font-size: 3rem;
+  }
+
+  /* Trust & SN icons */
+  .icon_row {
+    padding: 40px 5px;
+  }
+
+  .SN_row a {
+    padding: 10px 15px;
+  }
+
+  /* Footer */
+  .container_footer {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .contact, .a_propos {
+    margin: 46px 50px;
+  }
+
+  .icon_row, .container_footer {
+    padding: 10px 30px;
+  }
+
+  .products, .SN_row {
+    margin: 60px 0px;
+  }
+}
